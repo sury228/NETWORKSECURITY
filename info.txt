@@ -1,0 +1,21 @@
+1) setup.py file use ------------------------>
+The setup.py file is used to package and distribute a Python project. It tells Python and packaging tools information about your project, such as its name, version, dependencies, and other metadata.
+
+from setuptools import setup, find_packages
+
+setup(
+    name="my_ml_project",
+    version="1.0.0",
+    author="Suryansh Jha",
+    packages=find_packages(),
+    install_requires=[
+        "numpy",
+        "pandas",
+        "scikit-learn",
+        "flask"
+    ]
+)
+
+2)__init__.py
+The __init__.py file is used to tell Python that a directory should be treated as a package. It can also be used to initialize the package and control what gets imported.
+
