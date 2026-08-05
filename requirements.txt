@@ -2,7 +2,7 @@ python-dotenv
 pandas
 numpy
 matplotlib
-pymongo
+pymongo[srv]==3.11
 certifi
 
 
